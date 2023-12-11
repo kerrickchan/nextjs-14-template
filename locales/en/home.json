@@ -1,0 +1,25 @@
+{
+  "get-started": {
+    "text": "Get started by editing",
+    "page": "app/page.tsx"
+  },
+  "by": "By",
+  "next": {
+    "docs": {
+      "title": "Docs",
+      "body": "Find in-depth information about Next.js features and API."
+    },
+    "learn": {
+      "title": "Learn",
+      "body": "Learn about Next.js in an interactive course with quizzes!"
+    },
+    "template": {
+      "title": "Templates",
+      "body": "Explore starter templates for Next.js."
+    },
+    "deploy": {
+      "title": "Deploy",
+      "body": "Instantly deploy your Next.js site to a shareable URL with Vercel."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "get-started": {
+    "text": "從編輯開始",
+    "page": "app/page.tsx"
+  },
+  "by": "由",
+  "next": {
+    "docs": {
+      "title": "文件",
+      "body": "尋找有關 Next.js 功能和 API 的深入資訊。"
+    },
+    "learn": {
+      "title": "學習",
+      "body": "透過帶有測驗的互動課程了解 Next.js！"
+    },
+    "template": {
+      "title": "範本",
+      "body": "探索 Next.js 的入門範本。"
+    },
+    "deploy": {
+      "title": "部署",
+      "body": "使用 Vercel 立即將您的 Next.js 網站部署到可共用 URL。"
+    }
+  }
+}

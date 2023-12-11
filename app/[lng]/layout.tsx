@@ -1,3 +1,4 @@
+import { dir } from 'i18next'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -11,12 +12,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+  params: {
+    lng
+  },
+}: Readonly<{
+  children: React.ReactNode,
+  params: {
+    lng: string,
+  },
+}>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang={lng} dir={dir(lng)}>
+      <body className={inter.className}>
+        {children}</body>
     </html>
   )
 }
